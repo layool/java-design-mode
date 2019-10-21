@@ -22,7 +22,7 @@ class Memento
     public Memento(String state)
     {
         this.state=state;
-    }
+    }//构造方法不允许声明为static的
     public void setState(String state)
     {
         this.state=state;

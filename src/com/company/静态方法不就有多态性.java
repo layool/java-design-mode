@@ -30,7 +30,7 @@ class Subclass extends SuperClass{
 }
 class StaticMethodPolymorphism{
     public static void main(String[] args) {
-        SuperClass sup = new Subclass();
+        SuperClass sup = new Subclass();//Class对象是存放在堆区的，不是方法区
         System.out.println("----------------");
         System.out.println("sup.staticMethod()-> "+ sup.staticMethod());//sup.staticMethod()-> SuperClass's staticMethod()
         System.out.println("sup.dynamicMethod()-> "+ sup.dynamicMethod());//sup.dynamicMethod()-> derived class's dynamicMethod()

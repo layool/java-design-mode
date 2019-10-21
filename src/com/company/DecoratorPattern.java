@@ -9,10 +9,10 @@ public class DecoratorPattern//装饰者模式   通常情况下，扩展一个�
         p6.operation();
         Component p1=new ConcreteComponent();
         p1.operation();
-        System.out.println("---------------------------------");
+        System.out.println("----------------------------------------------------------------");
         Component d=new ConcreteDecorator(p,p6);
         d.operation();
-        System.out.println("---------------------------------");
+        System.out.println("-------------------------------------------------------------------");
         Component d1=new ConcreteDecorator(d,d);
         d1.operation();
     }
