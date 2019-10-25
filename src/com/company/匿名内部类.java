@@ -1,5 +1,4 @@
 package com.company;
-
 public class 匿名内部类 {
 }
 interface A{

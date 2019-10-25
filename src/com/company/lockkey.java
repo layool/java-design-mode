@@ -82,7 +82,7 @@ public class lockkey {
             @Override
             public void run() {
                 for(int i=1;i<=20;i++){
-                    demo.loopA(i); //for循环内部无线程则同步
+                    //demo.loopA(i); //for循环内部无线程则同步
                 }
             }
         },"A").start();
@@ -91,7 +91,7 @@ public class lockkey {
             @Override
             public void run() {
                 for(int i=1;i<=20;i++){
-                    demo.loopB(i);
+                    //demo.loopB(i);
                 }
             }
         },"B").start();
@@ -100,7 +100,7 @@ public class lockkey {
             @Override
             public void run() {
                 for(int i=1;i<=20;i++){
-                    demo.loopC(i);
+                    //demo.loopC(i);
                 }
             }
         },"C").start();

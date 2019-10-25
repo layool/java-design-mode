@@ -65,4 +65,5 @@ public class 内部类 {
         a.say2();
         b.sayit();
     }
-}*/
+}
+*/
